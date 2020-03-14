@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+
+<head>
+  <title>Freyjan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159593855-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-159593855-1');
+  </script>
+</head>
+
+<body class="home-body">
+  <header>
+    <nav>
+      <div class="container-fluid d-flex justify-content-center px-0 px-lg-5">
+        <div class="menu-icon-yellow">
+          <a href="/index.html">
+            <img src="./assets/images/menu-sm-icon.svg" alt="" width="37px" />
+          </a>
+
+          <img id="logo" src="./assets/images/menu-icon.svg" alt="" width="35px" />
+        </div>
+        <div class="menu w-100">
+          <div class="d-none d-lg-block">
+            <a class="d-none menu-logo-blue" href="/index.html">
+              <img src="./assets/images/freyjan-menu-logo-blue.svg" alt="" width="174px" />
+            </a>
+            <a class="menu-logo-white " href="/index.html">
+              <img src="./assets/images/freyjan-menu-logo.svg" alt="" />
+            </a>
+          </div>
+          <ul class="yellow-showing">
+            <li class="">
+              <a class="white-color" href="/work.html">Work</a>
+            </li>
+            <li class="">
+              <a class="white-color" href="/about.html">About</a>
+            </li>
+            <li class="">
+              <a class="white-color " href="/approach.html">Approach</a>
+            </li>
+            <li class="">
+              <a class="white-color" href="/get-in-touch.html">Get in Touch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home-content">
+    <div id="home-container" class="container px-0 ">
+      <div id="items" class="text-center">
+        <h1 class="freyjan-title px-1 px-lg-0 index-video-title">
+          Freyjan is a UI/UX Design Studio.
+        </h1>
+        <iframe src="https://player.vimeo.com/video/392804593" id="homeVideo" width="100%" frameborder="0"
+          allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+    <img id="home-mobile-orange-line" class="d-lg-none" src="./assets/images/home-mobile-orange-line.svg" alt="" />
+  <footer id="home-footer">
+
+    <img id="home-mobile-footer-bg" class="d-lg-none" src="./assets/images/home-mobile-footer.svg" alt="" />
+    <img id="home-web-footer-bg" class="d-none d-lg-block" src="./assets/images/home-web-footer.svg" alt="" />
+    <div class="home-social-text">
+      <div class="d-flex text-right home-social-icons">
+        <div class="mt-lg-3 d-lg-none">
+          <a href="https://www.linkedin.com/company/freyjan/">
+            <img src="./assets/images/linkedin-icon.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="mt-lg-3 d-none d-lg-block">
+          <a target="_blank" href="https://www.behance.net/freyjan">
+            <img src="./assets/images/be-icon.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="mt-lg-3 ml-4 d-lg-none">
+          <a href="https://www.instagram.com/freyjandesign/">
+            <img src="./assets/images/instagram-icon.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="mt-lg-3 ml-4 d-none d-lg-block">
+          <a target="_blank" href="https://www.instagram.com/freyjandesign/">
+            <img src="./assets/images/instagram-icon.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="mt-lg-3 ml-4 d-lg-none">
+          <a href="https://www.behance.net/freyjan">
+            <img src="./assets/images/be-icon.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="mt-lg-3 d-none d-lg-block">
+          <a target="_blank" href="https://www.linkedin.com/company/freyjan/">
+            <img src="./assets/images/linkedin-icon.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="mt-4 home-social-follow-us ml-lg-5">
+        Follow us!
+      </div>
+    </div>
+  </footer>
+  <script>
+    $(document).ready(function () {
+      $(".menu-icon-yellow #logo").on("click", function () {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+  </script>
+</body>
+
+</html>
